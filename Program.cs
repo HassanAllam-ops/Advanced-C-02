@@ -35,6 +35,29 @@ namespace Advanced_C__02
             //    Console.WriteLine(Count);
             //}
             #endregion
+
+            #region Q2
+           //int n = int.Parse(Console.ReadLine());
+           //
+           //string[] Input = Console.ReadLine().Split();
+           //int[] array = new int[n];
+           //for (int i = 0; i < n; i++)
+           //{
+           //    array[i] = int.Parse(Input[i]);
+           //}
+           //
+           //bool IsPalindrome = true;
+           //
+           //for(int i = 0; i < n/2; i++)
+           //{
+           //    if (array[i] != array[n - 1 - i])
+           //    {
+           //        IsPalindrome = false;
+           //        break;
+           //    }
+           //}
+           //Console.WriteLine(IsPalindrome ? "Yes" : "No");
+            #endregion
         }
     }
 }
