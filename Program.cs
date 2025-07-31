@@ -183,6 +183,20 @@ namespace Advanced_C__02
             //    Console.WriteLine("Target was not found");
             //}
             #endregion
+
+            #region Q9
+            //int[] nums1 = { 1, 2, 3, 4, 4 };
+            //int[] nums2 = { 10, 4, 4 };
+            //
+            //int[] intersection = GetIntersection(nums1, nums2);
+            //
+            //Console.WriteLine("Output:");
+            //foreach (int num in intersection)
+            //{
+            //    Console.Write(num + " ");
+            //}
+
+            #endregion
         }
 
         #region Q3 Fun
@@ -260,5 +274,29 @@ namespace Advanced_C__02
         //    return result.ToArray ();
         //}
         #endregion
+
+        #region Q9 Fun
+       //static int[] GetIntersection(int[] arr1, int[] arr2)
+       //{
+       //    List<int> result = new List<int>();
+       //    bool[] visited = new bool[arr2.Length];
+       //
+       //    for (int i = 0; i < arr1.Length; i++)
+       //    {
+       //        for (int j = 0; j < arr2.Length; j++)
+       //        {
+       //            if (!visited[j] && arr1[i] == arr2[j])
+       //            {
+       //                result.Add(arr1[i]);
+       //                visited[j] = true;
+       //                break;
+       //            }
+       //        }
+       //    }
+       //
+       //    return result.ToArray();
+
+            #endregion
+        }
     }
 }
