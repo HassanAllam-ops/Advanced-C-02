@@ -211,6 +211,20 @@ namespace Advanced_C__02
             //    Console.WriteLine("No sublist found");
 
             #endregion
+
+            #region Q11
+            //Queue<int> queue = new Queue<int>(new[] { 1, 2, 3, 4, 5 });
+            //int K = 3;
+            //
+            //Queue<int> result = ReverseKElements(queue, K);
+            //
+            //Console.WriteLine("Output:");
+            //foreach (int num in result)
+            //{
+            //    Console.Write(num + " ");
+            //}
+
+            #endregion
         }
 
         #region Q3 Fun
@@ -328,6 +342,31 @@ namespace Advanced_C__02
         //    return new List<int>();
         //}     
         #endregion
-    }
 
+        #region Q11 Fun
+        //static Queue<int> ReverseKElements(Queue<int> queue, int K)
+        //{
+        //    Stack<int> stack = new Stack<int>();
+        //
+        //    for (int i = 0; i < K; i++)
+        //    {
+        //        if (queue.Count > 0)
+        //            stack.Push(queue.Dequeue());
+        //    }
+        //
+        //    Queue<int> result = new Queue<int>();
+        //    while (stack.Count > 0)
+        //    {
+        //        result.Enqueue(stack.Pop());
+        //    }
+        //
+        //    while (queue.Count > 0)
+        //    {
+        //        result.Enqueue(queue.Dequeue());
+        //    }
+        //
+        //    return result;
+        //}
+        #endregion
+    }
 }
