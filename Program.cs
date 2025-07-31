@@ -197,6 +197,20 @@ namespace Advanced_C__02
             //}
 
             #endregion
+
+            #region Q10
+            //List<int> numbers = new List<int> { 1, 2, 3, 7, 5 };
+            //int target = 12;
+            //
+            //List<int> result = FindSublist(numbers, target);
+            //
+            //Console.WriteLine("Output:");
+            //if (result.Count > 0)
+            //    Console.WriteLine(string.Join(", ", result));
+            //else
+            //    Console.WriteLine("No sublist found");
+
+            #endregion
         }
 
         #region Q3 Fun
@@ -276,27 +290,44 @@ namespace Advanced_C__02
         #endregion
 
         #region Q9 Fun
-       //static int[] GetIntersection(int[] arr1, int[] arr2)
-       //{
-       //    List<int> result = new List<int>();
-       //    bool[] visited = new bool[arr2.Length];
-       //
-       //    for (int i = 0; i < arr1.Length; i++)
-       //    {
-       //        for (int j = 0; j < arr2.Length; j++)
-       //        {
-       //            if (!visited[j] && arr1[i] == arr2[j])
-       //            {
-       //                result.Add(arr1[i]);
-       //                visited[j] = true;
-       //                break;
-       //            }
-       //        }
-       //    }
-       //
-       //    return result.ToArray();
+        //static int[] GetIntersection(int[] arr1, int[] arr2)
+        //{
+        //    List<int> result = new List<int>();
+        //    bool[] visited = new bool[arr2.Length];
+        //
+        //    for (int i = 0; i < arr1.Length; i++)
+        //    {
+        //        for (int j = 0; j < arr2.Length; j++)
+        //        {
+        //            if (!visited[j] && arr1[i] == arr2[j])
+        //            {
+        //                result.Add(arr1[i]);
+        //                visited[j] = true;
+        //                break;
+        //            }
+        //        }
+        //    }
+        //
+        //    return result.ToArray();
 
-            #endregion
-        }
+        #endregion
+
+        #region Q10 Fun
+        //static List<int> FindSublist(List<int> list, int target)
+        //{
+        //    for (int start = 0; start < list.Count; start++)
+        //    {
+        //        int sum = 0;
+        //        for (int end = start; end < list.Count; end++)
+        //        {
+        //            sum += list[end];
+        //            if (sum == target)
+        //                return list.GetRange(start, end - start + 1);
+        //        }
+        //    }
+        //    return new List<int>();
+        //}     
+        #endregion
     }
+
 }
