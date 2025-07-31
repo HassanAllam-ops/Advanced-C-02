@@ -130,17 +130,58 @@ namespace Advanced_C__02
             #endregion
 
             #region Q7
-           //MyQueue<int> intQueue = new MyQueue<int>();
-           //intQueue.Enqueue(1);
-           //Console.WriteLine($"Dequeued From int Queue : {intQueue.Dequeue()}");
-           //
-           //MyQueue<string> stringQueue = new MyQueue<string>();
-           //stringQueue.Enqueue("Apple");
-           //Console.WriteLine($"Dequeued From string Queue : {stringQueue.Dequeue()}");
-           //
-           //MyQueue<double> doubleQueue = new MyQueue<double>();
-           //doubleQueue.Enqueue(5.28);
-           //Console.WriteLine($"Dequeued From double Queue : {doubleQueue.Dequeue()}");
+            //MyQueue<int> intQueue = new MyQueue<int>();
+            //intQueue.Enqueue(1);
+            //Console.WriteLine($"Dequeued From int Queue : {intQueue.Dequeue()}");
+            //
+            //MyQueue<string> stringQueue = new MyQueue<string>();
+            //stringQueue.Enqueue("Apple");
+            //Console.WriteLine($"Dequeued From string Queue : {stringQueue.Dequeue()}");
+            //
+            //MyQueue<double> doubleQueue = new MyQueue<double>();
+            //doubleQueue.Enqueue(5.28);
+            //Console.WriteLine($"Dequeued From double Queue : {doubleQueue.Dequeue()}");
+            #endregion
+
+            #region Q8
+            //Stack<int> stack = new Stack<int>();
+            //int[] numbers = { 5, 8, 9, 13, 3, 4, 7, 1, 30 };
+            //foreach (int num in numbers)
+            //{
+            //    stack.Push(num);
+            //}
+            //
+            //Console.WriteLine("Enter You Target Integer To Search For : ");
+            //if (!int.TryParse(Console.ReadLine() , out int target))
+            //{
+            //    Console.WriteLine("Invalid Input Please Enter Your Triger As Integer.");
+            //    return;
+            //}
+            //
+            //int count = 0;
+            //bool Found = false;
+            //
+            //Stack<int> tempStack = new Stack<int>(stack);
+            //
+            //while (tempStack.Count > 0)
+            //{
+            //    int Current = tempStack.Pop();
+            //    if (Current == target)
+            //    {
+            //        Found = true;
+            //        break;
+            //    }
+            //    count++;
+            //}
+            //
+            //if (Found)
+            //{
+            //    Console.WriteLine($"Target was found successfully and the count = {count}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Target was not found");
+            //}
             #endregion
         }
 
