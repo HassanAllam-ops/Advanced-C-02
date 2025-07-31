@@ -98,6 +98,18 @@ namespace Advanced_C__02
             //    Console.WriteLine(num + " ");
             //}
             #endregion
+
+            #region Q6
+           //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+           //int[] EvenNumbers  = RemoveOddNumbers(array);
+           //
+           //Console.WriteLine("The Numbers After Remove Odd Numbers");
+           //
+           //foreach (int num in EvenNumbers)
+           //{
+           //    Console.WriteLine(num + " ");
+           //}
+            #endregion
         }
 
         #region Q3 Fun
@@ -158,6 +170,21 @@ namespace Advanced_C__02
         //        }
         //    }
         //    return result.ToArray();
+        //}
+        #endregion
+
+        #region Q6 Fun
+        //static int[] RemoveOddNumbers (int[] input)
+        //{
+        //    List<int> result = new List<int>();
+        //    foreach (int num in input)
+        //    {
+        //        if (num % 2 == 0)
+        //        {
+        //            result.Add (num);
+        //        }
+        //    }
+        //    return result.ToArray ();
         //}
         #endregion
     }
