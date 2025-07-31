@@ -2,6 +2,24 @@
 using System.Collections.Generic;
 namespace Advanced_C__02
 {
+    #region Q7 Class
+    //public class MyQueue<T>
+    //{
+    //    private Queue<T> queue = new Queue<T>();
+    //
+    //    public void Enqueue (T item)
+    //    {
+    //        queue.Enqueue (item);
+    //    }
+    //
+    //    public T Dequeue()
+    //    {
+    //       return queue.Dequeue();
+    //    }
+    //
+    //    public int Count => queue.Count;
+    //}
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
@@ -100,15 +118,29 @@ namespace Advanced_C__02
             #endregion
 
             #region Q6
-           //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-           //int[] EvenNumbers  = RemoveOddNumbers(array);
+            //int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int[] EvenNumbers  = RemoveOddNumbers(array);
+            //
+            //Console.WriteLine("The Numbers After Remove Odd Numbers");
+            //
+            //foreach (int num in EvenNumbers)
+            //{
+            //    Console.WriteLine(num + " ");
+            //}
+            #endregion
+
+            #region Q7
+           //MyQueue<int> intQueue = new MyQueue<int>();
+           //intQueue.Enqueue(1);
+           //Console.WriteLine($"Dequeued From int Queue : {intQueue.Dequeue()}");
            //
-           //Console.WriteLine("The Numbers After Remove Odd Numbers");
+           //MyQueue<string> stringQueue = new MyQueue<string>();
+           //stringQueue.Enqueue("Apple");
+           //Console.WriteLine($"Dequeued From string Queue : {stringQueue.Dequeue()}");
            //
-           //foreach (int num in EvenNumbers)
-           //{
-           //    Console.WriteLine(num + " ");
-           //}
+           //MyQueue<double> doubleQueue = new MyQueue<double>();
+           //doubleQueue.Enqueue(5.28);
+           //Console.WriteLine($"Dequeued From double Queue : {doubleQueue.Dequeue()}");
             #endregion
         }
 
